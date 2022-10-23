@@ -35,7 +35,8 @@ public class MovePlayer : MonoBehaviour
         if (other.CompareTag("PowerUpJump"))
         {
             canJump = true;
-           
+
+           Destroy(other.gameObject);
         }
     }
     void MoveController()

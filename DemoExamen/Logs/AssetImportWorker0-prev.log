@@ -15,7 +15,7 @@ C:/Users/Vinta/OneDrive/Escritorio/TRABAJOS 9NO CUATRI/VIDEOJUEGOS/RepoExamen/De
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65008
+58993
 Successfully changed project path to: C:/Users/Vinta/OneDrive/Escritorio/TRABAJOS 9NO CUATRI/VIDEOJUEGOS/RepoExamen/DemoExamen/DemoExamen
 C:/Users/Vinta/OneDrive/Escritorio/TRABAJOS 9NO CUATRI/VIDEOJUEGOS/RepoExamen/DemoExamen/DemoExamen
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Vinta/OneDrive/Escritorio/TRABAJOS 9NO CUATRI/VIDEOJUEGOS/RepoExamen/De
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 3620.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 470.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -59,46 +59,3 @@ Direct3D:
     Vendor:   Intel
     VRAM:     1937 MB
     Driver:   23.20.16.4927
-Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.062903 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 286.25 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  8.509 seconds
-Domain Reload Profiling:
-	ReloadAssembly (8527ms)
-		BeginReloadAssembly (4204ms)
-			ExecutionOrderSort (98ms)
-			DisableScriptedObjects (0ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (242ms)
-		EndReloadAssembly (3249ms)
-			LoadAssemblies (3469ms)
-			RebuildTransferFunctionScriptingTraits (100ms)
-			SetupTypeCache (471ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (134ms)
-			SetupLoadedEditorAssemblies (1897ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (83ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (287ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (1088ms)
-				ProcessInitializeOnLoadMethodAttributes (344ms)
-				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.617140 seconds.
