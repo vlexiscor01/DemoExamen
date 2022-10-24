@@ -9,6 +9,7 @@ public class MovePlayer : MonoBehaviour
     public float speed;
     public bool canJump;
     public float forceJump;
+    public bool isFloor;
 
     public Transform _initialPos;
 
@@ -21,8 +22,8 @@ public class MovePlayer : MonoBehaviour
     
     void Update()
     {
-        MoveController(); 
-            
+        MoveController();
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -38,7 +39,19 @@ public class MovePlayer : MonoBehaviour
 
            Destroy(other.gameObject);
         }
+        if (other.CompareTag("Floor")) isFloor = true;
     }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Floor")) isFloor = true;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Floor")) isFloor = false;
+    }
+        
     void MoveController()
     {
         float moveV = Input.GetAxis("Vertical");
@@ -47,7 +60,7 @@ public class MovePlayer : MonoBehaviour
         transform.Translate(0, 0, moveV * speed * Time.deltaTime);
         transform.Rotate(0, moveH,0 * speed * Time.deltaTime);
 
-        if(canJump)
+        if(canJump && isFloor)
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
