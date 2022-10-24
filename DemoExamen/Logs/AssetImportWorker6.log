@@ -1,0 +1,471 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 3874 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Vinta/OneDrive/Escritorio/TRABAJOS 9NO CUATRI/VIDEOJUEGOS/RepoExamen/DemoExamen/DemoExamen
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+65323
+Successfully changed project path to: C:/Users/Vinta/OneDrive/Escritorio/TRABAJOS 9NO CUATRI/VIDEOJUEGOS/RepoExamen/DemoExamen/DemoExamen
+C:/Users/Vinta/OneDrive/Escritorio/TRABAJOS 9NO CUATRI/VIDEOJUEGOS/RepoExamen/DemoExamen/DemoExamen
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 463.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Vinta/OneDrive/Escritorio/TRABAJOS 9NO CUATRI/VIDEOJUEGOS/RepoExamen/DemoExamen/DemoExamen/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 600 (ID=0x3185)
+    Vendor:   Intel
+    VRAM:     1937 MB
+    Driver:   23.20.16.4927
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.032725 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 254.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.906 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1908ms)
+		BeginReloadAssembly (256ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1320ms)
+			LoadAssemblies (246ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (789ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (255ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (373ms)
+				ProcessInitializeOnLoadMethodAttributes (134ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.032814 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vinta\OneDrive\Escritorio\TRABAJOS 9NO CUATRI\VIDEOJUEGOS\RepoExamen\DemoExamen\DemoExamen\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vinta\OneDrive\Escritorio\TRABAJOS 9NO CUATRI\VIDEOJUEGOS\RepoExamen\DemoExamen\DemoExamen\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.686 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6689ms)
+		BeginReloadAssembly (684ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (203ms)
+		EndReloadAssembly (5292ms)
+			LoadAssemblies (2276ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1269ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (137ms)
+			SetupLoadedEditorAssemblies (1543ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (288ms)
+				ProcessInitializeOnLoadAttributes (969ms)
+				ProcessInitializeOnLoadMethodAttributes (226ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.77 seconds
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.8 KB). Loaded Objects now: 3848.
+Memory consumption went from 118.7 MB to 118.6 MB.
+Total: 7.575200 ms (FindLiveObjects: 1.055700 ms CreateObjectMapping: 0.201500 ms MarkObjects: 5.990500 ms  DeleteObjects: 0.325100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7217.382877 seconds.
+  path: Assets/Levels/Arenas/Scenes/Inicio.unity
+  artifactKey: Guid(e9055b5c4e01d864aa382ba769db6c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/Arenas/Scenes/Inicio.unity using Guid(e9055b5c4e01d864aa382ba769db6c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c687335224c4d14700e7dec687fed43d') in 0.039966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 502.282151 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(cf58da48a660a9842ba076c4b454e166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(cf58da48a660a9842ba076c4b454e166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf0a97dccfdfde3e91e1bee5d846104') in 0.034946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.690172 seconds.
+  path: Assets/Resources/Carpeta_DemoGame-03.png
+  artifactKey: Guid(97db2128df127424789d4b1dc0a687f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame-03.png using Guid(97db2128df127424789d4b1dc0a687f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12d054fc862bed17e5a036d82c7b56d') in 1.773354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.721026 seconds.
+  path: Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png
+  artifactKey: Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png using Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3504538c83f7f819cf2bdb0d6301169') in 0.257858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.111806 seconds.
+  path: Assets/Resources/Carpeta_DemoGame-02.png
+  artifactKey: Guid(1425d3cd3b432f4458b4cd9a34d5eb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame-02.png using Guid(1425d3cd3b432f4458b4cd9a34d5eb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232def331726d16b31eb6b30a3bd8528') in 0.566218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.205890 seconds.
+  path: Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png
+  artifactKey: Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png using Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907ec41214213c8b6bbfbe39f6e186db') in 0.317006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.698262 seconds.
+  path: Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png
+  artifactKey: Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png using Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e29155e9ed6d624e1d06c916eb95698') in 0.615012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.782726 seconds.
+  path: Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png
+  artifactKey: Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png using Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925a48bdb81372e58a865c42679d647b') in 0.427199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.523368 seconds.
+  path: Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png
+  artifactKey: Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png using Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a531cdfabbb499457dfe9cd4e714154f') in 0.737949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 152.532892 seconds.
+  path: Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png
+  artifactKey: Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png using Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06457b658ed82800eef2ed1698b70e1') in 0.529064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.020126 seconds.
+  path: Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.jpg
+  artifactKey: Guid(c7786ed7a07b53f46a5bd0227ed52c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.jpg using Guid(c7786ed7a07b53f46a5bd0227ed52c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c9e62c9ed72ccea5e0dfd1ce2b9894') in 1.838454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.240541 seconds.
+  path: Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.jpg
+  artifactKey: Guid(c7786ed7a07b53f46a5bd0227ed52c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.jpg using Guid(c7786ed7a07b53f46a5bd0227ed52c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b9967c6895912910c1d75d035cfd64') in 1.325525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.391930 seconds.
+  path: Assets/Resources/Carpeta_DemoGame-03.png
+  artifactKey: Guid(97db2128df127424789d4b1dc0a687f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame-03.png using Guid(97db2128df127424789d4b1dc0a687f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22c42c0eb5e66349bfd775a2d9a6c4b') in 1.152926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.366202 seconds.
+  path: Assets/Resources/Carpeta_DemoGame-02.png
+  artifactKey: Guid(1425d3cd3b432f4458b4cd9a34d5eb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame-02.png using Guid(1425d3cd3b432f4458b4cd9a34d5eb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccf5349074f3f3b204d18d7dbd6d162') in 0.700420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 196.556012 seconds.
+  path: Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png
+  artifactKey: Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png using Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba07b340c56710db699d5750af302e2') in 0.239758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.407935 seconds.
+  path: Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png
+  artifactKey: Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png using Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a184770570beca723b174257b2d40b9') in 0.930917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 334.496959 seconds.
+  path: Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png
+  artifactKey: Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png using Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cf0ea01583c1cca2ac482acaae801f') in 3.900938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 577.753615 seconds.
+  path: Assets/Animation/logo anim.anim
+  artifactKey: Guid(a068b11c17d5e2d40a74bfbf2edf1856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/logo anim.anim using Guid(a068b11c17d5e2d40a74bfbf2edf1856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de90f4c8b28acadb25e23f5cdd1561ca') in 0.526360 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.097331 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vinta\OneDrive\Escritorio\TRABAJOS 9NO CUATRI\VIDEOJUEGOS\RepoExamen\DemoExamen\DemoExamen\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vinta\OneDrive\Escritorio\TRABAJOS 9NO CUATRI\VIDEOJUEGOS\RepoExamen\DemoExamen\DemoExamen\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 14.828 seconds
+Domain Reload Profiling:
+	ReloadAssembly (14986ms)
+		BeginReloadAssembly (8996ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (695ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4117ms)
+		EndReloadAssembly (5131ms)
+			LoadAssemblies (1125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1870ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (224ms)
+			SetupLoadedEditorAssemblies (2166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (67ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (13ms)
+				BeforeProcessingInitializeOnLoad (448ms)
+				ProcessInitializeOnLoadAttributes (1290ms)
+				ProcessInitializeOnLoadMethodAttributes (276ms)
+				AfterProcessingInitializeOnLoad (65ms)
+				EditorAssembliesLoaded (4ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (76ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.2 KB). Loaded Objects now: 3859.
+Memory consumption went from 123.0 MB to 123.0 MB.
+Total: 201.563400 ms (FindLiveObjects: 0.964900 ms CreateObjectMapping: 0.187500 ms MarkObjects: 180.094100 ms  DeleteObjects: 20.155000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032143 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vinta\OneDrive\Escritorio\TRABAJOS 9NO CUATRI\VIDEOJUEGOS\RepoExamen\DemoExamen\DemoExamen\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vinta\OneDrive\Escritorio\TRABAJOS 9NO CUATRI\VIDEOJUEGOS\RepoExamen\DemoExamen\DemoExamen\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.856 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10858ms)
+		BeginReloadAssembly (3096ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (207ms)
+		EndReloadAssembly (6883ms)
+			LoadAssemblies (5028ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1528ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (182ms)
+			SetupLoadedEditorAssemblies (2302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (87ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (427ms)
+				ProcessInitializeOnLoadAttributes (1413ms)
+				ProcessInitializeOnLoadMethodAttributes (287ms)
+				AfterProcessingInitializeOnLoad (83ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (72ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.1 KB). Loaded Objects now: 3862.
+Memory consumption went from 123.0 MB to 123.0 MB.
+Total: 8.398700 ms (FindLiveObjects: 0.999500 ms CreateObjectMapping: 0.255000 ms MarkObjects: 6.911800 ms  DeleteObjects: 0.229600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 352.547655 seconds.
+  path: Assets/Resources/Carpeta_DemoGame-02.png
+  artifactKey: Guid(1425d3cd3b432f4458b4cd9a34d5eb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame-02.png using Guid(1425d3cd3b432f4458b4cd9a34d5eb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4391dbc70e1b251124279913feca65d') in 1.321208 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 3.338711 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vinta\OneDrive\Escritorio\TRABAJOS 9NO CUATRI\VIDEOJUEGOS\RepoExamen\DemoExamen\DemoExamen\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vinta\OneDrive\Escritorio\TRABAJOS 9NO CUATRI\VIDEOJUEGOS\RepoExamen\DemoExamen\DemoExamen\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 460.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 32.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (32262ms)
+		BeginReloadAssembly (18649ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (1419ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (5386ms)
+		EndReloadAssembly (11871ms)
+			LoadAssemblies (7559ms)
+			RebuildTransferFunctionScriptingTraits (18ms)
+			SetupTypeCache (2809ms)
+			ReleaseScriptCaches (27ms)
+			RebuildScriptCaches (140ms)
+			SetupLoadedEditorAssemblies (3315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (148ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (484ms)
+				BeforeProcessingInitializeOnLoad (763ms)
+				ProcessInitializeOnLoadAttributes (1466ms)
+				ProcessInitializeOnLoadMethodAttributes (412ms)
+				AfterProcessingInitializeOnLoad (41ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 607.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4189 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (221.4 KB). Loaded Objects now: 4667.
+Memory consumption went from 162.5 MB to 162.3 MB.
+Total: 145.437200 ms (FindLiveObjects: 1.951500 ms CreateObjectMapping: 0.696100 ms MarkObjects: 142.339800 ms  DeleteObjects: 0.446500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1330.338938 seconds.
+  path: Assets/Resources/Carpeta_DemoGame-02.png
+  artifactKey: Guid(1425d3cd3b432f4458b4cd9a34d5eb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame-02.png using Guid(1425d3cd3b432f4458b4cd9a34d5eb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735991abb1bb61400c657f136b231454') in 1.308624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Resources/Carpeta_DemoGame-03.png
+  artifactKey: Guid(97db2128df127424789d4b1dc0a687f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame-03.png using Guid(97db2128df127424789d4b1dc0a687f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cfa9c4a7187e2fcbd1356e5665badc') in 1.161738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008736 seconds.
+  path: Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png
+  artifactKey: Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame_Mesa de trabajo 1.png using Guid(e153c3157e240d34b9b844ecfe6d51ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb7e5ab3be3812e008336d1f5dc666e') in 1.468646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 422.187851 seconds.
+  path: Assets/Resources/Carpeta_DemoGame-02.png
+  artifactKey: Guid(1425d3cd3b432f4458b4cd9a34d5eb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame-02.png using Guid(1425d3cd3b432f4458b4cd9a34d5eb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb4d2fdbbbe8fb89a9bb754d3a5fbdf') in 1.647263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.163661 seconds.
+  path: Assets/Resources/Carpeta_DemoGame-02.png
+  artifactKey: Guid(1425d3cd3b432f4458b4cd9a34d5eb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Carpeta_DemoGame-02.png using Guid(1425d3cd3b432f4458b4cd9a34d5eb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fbc283fb14ec1c61f291a18c364487') in 0.723884 seconds 
